@@ -38,8 +38,14 @@
       </div>
 
       <div v-if="!currentSessionId" class="text-center text-gray-500 mt-4">
-        請先選擇一個對話開始聊天。
+        <template v-if="histories.length === 0">
+          看起來還沒有對話紀錄，按下新對話開始了解最新資訊吧。
+        </template>
+        <template v-else>
+          請先選擇一個對話開始聊天。
+        </template>
       </div>
+      
       <!-- 輸入框 -->
       <div v-if="isLoading" class="text-sm text-gray-500 text-center py-2 animate-pulse">
         系統回覆中...

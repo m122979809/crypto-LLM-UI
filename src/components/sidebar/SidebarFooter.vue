@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-[#E4D3B3] text-center">
+  <!-- <div class="p-4 bg-[#E4D3B3] text-center">
     <button
       @click="handleSignOut"
       class=" italic flex items-center justify-center gap-2 text-sm text-[#6B4C3B] hover:underline"
@@ -7,7 +7,7 @@
       <SettingIcon class="w-4 h-4" />
       登出
     </button>
-  </div>
+  </div> -->
 </template>
 
 <script setup>

@@ -3,16 +3,16 @@
     <div class="flex items-center gap-2 w-full max-w-2xl mx-auto">
       <!-- Plus 按鈕與上彈式選單 -->
       <div class="relative">
-        <button
+        <!-- <button
           @click="showMenu = !showMenu"
           class="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
           :class="showMenu ? 'rotate-45' : ''"
         >
           <Plus class="transition-transform duration-200 ease-in-out" />
-        </button>
+        </button> -->
 
         <!-- 上彈式選單 -->
-        <transition
+        <!-- <transition
           enter-active-class="transition duration-100 ease-out"
           enter-from-class="transform opacity-0 scale-95"
           enter-to-class="transform opacity-100 scale-100"
@@ -46,7 +46,7 @@
               <span>錄音</span>
             </button>
           </div>
-        </transition>
+        </transition> -->
       </div>
 
       <!-- 輸入框 -->
